@@ -109,3 +109,10 @@ img{
   .invisible{
       visibility: hidden;
   }
+
+  .blowUp{
+  /* -webkit-transition:3000ms; */
+    transition: 3000ms;
+    /* -webkit-transform: scale(120px, 120px); */
+    transform: scale(1.2, 1.2); 
+}
